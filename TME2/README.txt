@@ -87,64 +87,66 @@ Question 5.3 :
 Les affichages que j'ai obtenus sont les suivants avec : ./mytimes "./loopcpu" & ./mytimes "./loopcpu" & ./mytimes "./loopcpu" & ./mytimes "nice -19 ./loopcpu" & ./mytimes "./loopcpu" & ./mytimes "./loopcpu" & ./mytimes "./loopcpu" & ./mytimes "./loopcpu" & ./mytimes "./loopcpu" &
 
 Statistiques de "./loopcpu" :
-Temps total : 7.386006 s
+Temps total : 7.263207 s
 Temps utilisateur : 0.000000 s
 Temps système : 0.000000 s
-Temps utilisateur fils : 7.370000 s
+Temps utilisateur fils : 7.260000 s
 Temps système fils : 0.000000 s
 
 Statistiques de "./loopcpu" :
-Temps total : 7.384659 s
+Temps total : 7.294150 s
 Temps utilisateur : 0.000000 s
 Temps système : 0.000000 s
-Temps utilisateur fils : 7.380000 s
+Temps utilisateur fils : 7.280000 s
+Temps système fils : 0.000000 s
+
+Statistiques de "./loopcpu" :
+Temps total : 7.300622 s
+Temps utilisateur : 0.000000 s
+Temps système : 0.000000 s
+Temps utilisateur fils : 7.290000 s
+Temps système fils : 0.000000 s
+
+Statistiques de "./loopcpu" :
+Temps total : 7.307859 s
+Temps utilisateur : 0.000000 s
+Temps système : 0.000000 s
+Temps utilisateur fils : 7.300000 s
+Temps système fils : 0.000000 s
+
+Statistiques de "./loopcpu" :
+Temps total : 7.312810 s
+Temps utilisateur : 0.000000 s
+Temps système : 0.000000 s
+Temps utilisateur fils : 7.300000 s
+Temps système fils : 0.000000 s
+
+Statistiques de "./loopcpu" :
+Temps total : 7.327132 s
+Temps utilisateur : 0.000000 s
+Temps système : 0.000000 s
+Temps utilisateur fils : 7.310000 s
 Temps système fils : 0.000000 s
 
 Statistiques de "nice -19 ./loopcpu" :
-Temps total : 7.386358 s
+Temps total : 7.331693 s
 Temps utilisateur : 0.000000 s
 Temps système : 0.000000 s
-Temps utilisateur fils : 7.380000 s
+Temps utilisateur fils : 7.320000 s
 Temps système fils : 0.000000 s
 
 Statistiques de "./loopcpu" :
-Temps total : 7.399168 s
+Temps total : 7.334484 s
 Temps utilisateur : 0.000000 s
 Temps système : 0.000000 s
-Temps utilisateur fils : 7.390000 s
+Temps utilisateur fils : 7.300000 s
 Temps système fils : 0.000000 s
 
 Statistiques de "./loopcpu" :
-Temps total : 7.401103 s
+Temps total : 7.333380 s
 Temps utilisateur : 0.000000 s
 Temps système : 0.000000 s
-Temps utilisateur fils : 7.390000 s
+Temps utilisateur fils : 7.320000 s
 Temps système fils : 0.000000 s
 
-Statistiques de "./loopcpu" :
-Temps total : 7.410918 s
-Temps utilisateur : 0.000000 s
-Temps système : 0.000000 s
-Temps utilisateur fils : 7.400000 s
-Temps système fils : 0.000000 s
-
-Statistiques de "./loopcpu" :
-Temps total : 7.418292 s
-Temps utilisateur : 0.000000 s
-Temps système : 0.000000 s
-Temps utilisateur fils : 7.410000 s
-Temps système fils : 0.000000 s
-
-Statistiques de "./loopcpu" :
-Temps total : 7.425565 s
-Temps utilisateur : 0.000000 s
-Temps système : 0.000000 s
-Temps utilisateur fils : 7.420000 s
-Temps système fils : 0.000000 s
-
-Statistiques de "./loopcpu" :
-Temps total : 7.425328 s
-Temps utilisateur : 0.000000 s
-Temps système : 0.000000 s
-Temps utilisateur fils : 7.420000 s
-Temps système fils : 0.000000 s
+Je constate que plus la prioriété est basse, plus elle prend du temps à se terminer.
